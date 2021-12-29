@@ -1,0 +1,56 @@
+body{
+  background-color: #f5f7f8;
+}
+    h3{
+        padding: 15px;
+        color: #3d5b6b;
+        font-family:  Goudy Old Style;
+    }
+    p{
+      font-family:Segoe UI;
+      font-size: 16px;
+      padding: 5px 0px 5px 0px;
+    }
+    h4{
+      font-family:Goudy Old Style ;
+      border-bottom: #3d5b6b solid 1px;
+      font-size: ;
+    }
+    .option{
+      border: 10px;
+    position: relative;
+    padding-bottom: 10px;
+    }
+    .option h5{
+    font-family: Goudy Old Style;
+    padding: 5px;
+    font-size: 15px;
+    color: #3d5b6b;
+    }
+    .option img { 
+    height: 100px;
+    width: 100%;
+    }
+    .option :hover{
+    color: #3d5b6b;
+    text-decoration: none;
+    }
+li{
+  padding: 5px;
+}
+#table th{
+  background-color: #3d5b6b;
+  text-align: center;
+  color: white;
+  padding: 40px ;
+  border-left: solid;
+}
+#table tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+#table td{
+  padding: 15px;
+}
+#table td li{
+  padding: 5px 0px 10px 10px;
+}

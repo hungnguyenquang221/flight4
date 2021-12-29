@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="../logo.jpg">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="Pay.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<title>Information</title>
+</head>
+<body>
+  <header>
+  
+  <!----donglist1------------------->
+  </div>
+<div class="container-fluid " style="margin-top: 20px;">
+  
+<!----------------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-light navbar-expand-lg " >
+  <a href="#"><img src="../logo.jpg" width="35px" height="35px" style="margin-left: 10px;"></a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!------------------>
+  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+    <!--------------list1---------->
+  
+  <ul class="navbar-nav">
+    <li class=" nav-item dropdown">
+    <a href="#" class="dropbtn ">Transports</a>
+    <div class="dropdown-content">
+      <a href="#"><i style='font-size:14px;color: powderblue;' class='fas'>&#xf072;</i> Flights</a>
+      <a href="#"><i style='font-size:14px;color: lightpink;' class='fas'>&#xf594;</i> Hotel</a>
+      <a href="#"><i style='font-size:14px;color: red;' class='fas'>&#xf1ba;</i> Car</a>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+    <a href="#" class="dropbtn">Accommodations</a>
+    <div class="dropdown-content">
+      <a href="#"><i style='font-size:14px;color: lightpink;' class='fas'>&#xf594;</i> Hotels</a>
+      <a href="#"><i style='font-size:14px;color: powderblue;' class='fas'>&#xf072;</i> Flights</a>
+      <a href="#"><i style='font-size:14px;color: green;' class='fas'> &#xf4b9;</i> Prices</a>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+    <a href="#" class="dropbtn ">Things to Do</a>
+    <div class="dropdown-content">
+      <a href="#"><i style='font-size:14px;color: blueviolet;' class='fas'> &#xf084;</i> Xperience</a>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+    <a href="#" class="dropbtn ">Travel Add-ons</a>
+    <div class="dropdown-content">
+      <a href="#"><i style='font-size:14px;color: brown;' class='fas'>&#xf09d;</i> My points</a>
+      <a href="#"><i style='font-size:14px;color: hotpink;' class='fas'> &#xf06b;</i> Voucher</a>
+    </div>
+    </li>
+  </ul>
+  <ul class="navbar-nav ml-auto" >
+    <li class="nav-item dropdown1">
+    <a href="../LogIn/LogIn.html" style='font-size:15px'><i style='font-size:15px' class='far'>&#xf2b5;</i> Partner with Us</a>
+    </li>
+    <li class="nav-item dropdown1">
+    <a href="../LogIn/LogIn.html"style='font-size:15px'><i style='font-size:15px' class='far'>&#xf2bd;</i> Login</a>
+    </li>
+    <li class="nav-item dropdown1">
+      <a href="#"style='font-size:15px'><i style='font-size:15px' class='far'>&#xf059;</i> Help</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
+<!------------------------------------------------------------------------------------------------------------->
+</div>
+
+</header>
+<main>
+  <div class="container">
+  <label class="text-right" style="color: blue;">Fill in Details</label>
+   <form action="/action_page.php">
+    <div class="row">
+      <div class="col-50">
+                  <h3><b>Passenger Details</b></h3>
+                  <div>
+                    <div class="required">
+                  <label>Title : </label></div>
+                  <div class="form-check-inline" id="check">
+                    <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">Mr.
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">Mrs.
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">Ms.
+                    </label>
+                  </div>
+                </div>
+                <br>
+                    <div class="row">
+                    <div class="col-md-6 required">
+                  <label for="lname">Last Name : </label>
+                  <input type="text" id="fname" name="firstname" placeholder="e.g. Van A"></div>
+                  <div class="col-md-6 required">
+
+                  <label for="fname">First Name : </label>
+                  <input type="text" id="fname" name="firstname" placeholder="e.g. Nguyen">
+
+                  </div>
+
+                  <div class="col-md-6 required">
+                    <label for="birth">Date of birth : </label>
+                    <input type="text" id="dob" name="dateofbirth" placeholder="DD/MM/YYYY"></div>
+                    <div class="col-md-6 required">
+                     <label>Nationality : </label>
+                       <form action="/action_page.php" method="get">
+                        <input list="nations" name="place" type="text" id="nation" placeholder="Nationality" class="form-group">
+                        <datalist id="nations">
+                          <option value="Vietnam"></option>
+                          <option value="Qatar"></option>
+                          <option value ="Spain"></option>
+                          <option value="Italy"></option>
+                          <option value="Albania"></option>
+                         <option value="Algeria"></option>
+                        </datalist>
+                      </form>
+                    </div>
+              </div>
+
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3><b>Contact Details</b></h3>
+                  <div class="row">
+                  <div class="col-md-6 required">
+                  <label for="email"></i> Email : </label>
+                  <input type="text" id="email" name="email" placeholder="e.g. email@example.com">
+                </div>
+                <div class="col-md-6 required">
+                  <label for="sdt"></i> Phone Number : </label>
+                  <input type="text" id="phone" name="phone" placeholder="e.g. 123-45-678">
+                </div>
+              </div>
+                  <label for="add"></i> Address : </label>
+                  <input type="text" id="adr" name="address" placeholder="e.g. 239, Nguyen Trai Street, District 5, Ho Chi Minh City ">
+                  
+            </form>
+            <a href="Pay2.html"><div class="btn">Continue</div></a>
+</div>   
+</main>   
+<footer style="padding-top:50px">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-3">
+            <h4><b>SECURITY & TRANSPARENCY</b></h4>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">Delay contingency plans</a></li>
+                <li>
+                  <a href="#" target="_blank">Customer Service Plan</a></li>
+                <li>
+                  <a href="#" target="_blank">Privacy policy</a></li>
+                <li>
+                  <a href="#" target="_blank">Cookie policy</a></li>
+                <li>
+                  <a href="#" target="_blank">Terms & conditions</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+            <h4><b>SUPPORT</b></h4>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">FAQs</a></li>
+                <li>
+                  <a href="#" target="_blank">Help</a></li>
+                <li>
+                  <a href="#" target="_blank">Contact us</a></li>
+                <li>
+                  <a href="#" target="_blank">Feedback</a></li>
+                <li>
+                  <a href="#" target="_blank">Manage voucher</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+            <h4><b>AIRLINES</b></h4>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">About us</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Investors</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Travel alerts</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Sponsorship</a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+            <h4><b>MEDIA & RESOURCES</b></h4>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">Multimedia library</a></li>
+                <li>
+                  <a href="#" target="_blank">News releases</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-2">
+          <img src="../cer3.png" width="100%">
+        </div>
+      </div>
+      <div class="row cer" style="padding-top:50px">
+        <div class="col-md-10">
+          <ul>
+            <li>
+              <img src="../cer.png" width="80px" height="80px">
+              <p>4-Star COVID-19 Airline Safety Rating</p>
+            </li>
+            <li>
+              <img src="../cer2.png" width="80px" height="80px">
+              <p>Airline of the Year for the sixth time</p>
+            </li>
+            <li>
+              <img src="../cer2.png" width="80px" height="80px">
+              <p>World's Best Business Class</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4><b>CONTACT WITH US</b></h4>
+            <div class="social">
+              <a href="#"><i style='font-size:24px' class='fab'>&#xf09a;</i></a>
+              <a href="#"><i style='font-size:24px' class='fab'>&#xf16d;</i></a>
+              <a href="#"><i style='font-size:24px' class='fab'>&#xf17e;</i></a>
+              <a href="#"><i style='font-size:24px' class='fab'>&#xf099;</i></a>
+              <a href="#"><i style='font-size:24px' class='fab'>&#xf189;</i></a>
+            </div>
+        </div>
+      </div>
+    <div class="last" style="padding:30px 0px 30px 0px ">
+      <div class="row" style=" border-top: solid 1px;">
+        <div class="col-md-10">
+          <ul>
+            <li><a href="#">Cookie policy</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Combating human traficking</a></li>
+            <li><a href="#">Cookie Consent</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-right">
+          <span>All right reserved</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
