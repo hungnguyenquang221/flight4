@@ -112,7 +112,7 @@ header .dropdown:hover .dropdown-content {
 }
 
 .jumbotron {
-  background-image: url("./travel.jpg");
+  background-image: url("./Pictures/travel.jpg");
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
